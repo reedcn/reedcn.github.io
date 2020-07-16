@@ -1,0 +1,92 @@
+body {
+  background-color: #fffffe;
+  background: url("../img/bg.jpg");
+  background-size:100vh;
+  background-repeat: repeat:
+}
+
+.cd {
+  border: 2px solid red;
+}
+
+.navbar {
+  background-color: rgb(207,69,92);
+}
+
+.con {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.jumbotron {
+  background-color: #E8E8E8;
+  text-align:center;
+}
+
+
+.slider {
+  width: 30em;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  height: 280px;
+}
+
+a {
+  color: rgb(207,69,92);
+  font-family: Hoefler Text;
+  text-decoration:none;
+  transition: color .5s ease-in-out;
+  -moz-transition: color .5s ease-in-out;
+  -webkit-transition: color .5s ease-in-out;
+}
+
+a:hover {
+  color: rgb(0,0,0);
+}
+
+.navlink:hover {
+  color: #000;
+}
+
+.nav-button {
+  opacity:.8;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: sepia(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+  transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+}
+
+.nav-button:hover {
+  opacity:1;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+  -webkit-filter: sepia(100%);
+  -webkit-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+
+.socialimg {
+  opacity: 1;
+  width: 3.5em;
+  padding: 5px;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: sepia(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+     transition: all 1.25s ease-in-out;
+  -moz-transition: all 1.25s ease-in-out;
+  -webkit-transition: all 1.25s ease-in-out;
+}
+ .socialimg:hover {
+  opacity: 0.8;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+  -webkit-filter: sepia(100%);
+  -webkit-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
